@@ -1,7 +1,3 @@
-Here’s a README draft that describes the purpose of each file in your project:
-
----
-
 # Course Recommendation System
 
 This project was developed as part of a hackathon challenge to build a **Course Recommendation System** using various datasets from Coursera, Stanford, and Harvard. The final recommendation system is content-based and built using **TF-IDF vectorization** and **cosine similarity**. Below is a description of each file in the project.
