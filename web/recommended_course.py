@@ -1,15 +1,6 @@
 import os
-import pandas as pd
-import networkx as nx
-import kagglehub
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.cluster import KMeans
-import seaborn as sns
-import matplotlib.pyplot as plt
+import pandas as pd # type: ignore
 import pickle
-plt.style.use('ggplot')
 
 data = pd.read_csv('coursera_processed_data.csv')
 

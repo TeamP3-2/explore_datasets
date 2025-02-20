@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from recommended_course import recommended_courses
+from recommended_course import get_recommendations_from_list_of_courses
 
 app = Flask(__name__)
 
@@ -7,7 +7,8 @@ def get_top_rated_course_ids():
     return jsonify({1: 1, 2: 23, 3: 23, 4: 56})
 
 def get_recommended_courses(past_courses_id):
-    return jsonify({1: 1, 2: 23, 3: 23, 4: 56})
+    return jsonify({get_recommendations_from_list_of_courses})
+
 
 @app.route('/', methods=['POST'])
 def get_courses_id():
