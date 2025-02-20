@@ -48,11 +48,6 @@ This project was developed as part of a hackathon challenge to build a **Course 
 - `similarity_matrix.pkl`:  
   A serialized similarity matrix used to speed up the recommendation process by storing precomputed course similarities.
 
-### **README.md**  
-  This file, providing an overview of the project and explaining each file’s purpose.
-
----
-
 ## Conclusion
 
 This project demonstrates the steps taken to create a content-based recommendation system by exploring, clustering, and analyzing multiple datasets. The system is designed for easy dataset management and includes a dashboard for viewing course categories.
